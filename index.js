@@ -1,56 +1,44 @@
 export default (content) => {
-  const users = content.users
+  const { users } = content;
 
-  const allNames = [];
-  for (const user of users) {
-    allNames.push(user.name)
-  }
+  // 1. Все имена пользователей
+  const allNames = users.map(user => user.name);
+  console.log(`Пользователи: ${allNames.join(', ')}`);
 
-  console.log(Пользователи: ${allNames.join(', ')})
+  // 2. Пользователи до 30 лет
+  const under30 = users
+    .filter(user => user.age < 30)
+    .map(user => user.name);
+  console.log(`Пользователи до 30 лет: ${under30.join(', ')}`);
 
-  const under30 = [];
-  for (const user of users) {
-    if (user.age < 30) {
-      under30.push(user.name)
-    }
-  }
+  // 3. Сортировка по лайкам (от большего к меньшему)
+  const sortedByLikes = [...users].sort((a, b) => b.likes - a.likes);
+  const likesInfo = sortedByLikes.map(user => `${user.name}: ${user.likes}`);
+  console.log(`Лайки и имя пользователя: ${likesInfo.join(', ')}`);
 
-  console.log(Пользователи до 30 лет: ${under30.join(', ')})
-
-  const Likes = [...users].sort((a, b) => b.likes - a.likes)
-  const likesInfo = []
-  for (const user of Likes) {
-    likesInfo.push(${user.name}: ${user.likes})
-  }
-
-  console.log(Лайки и имя пользователя: ${likesInfo.join(', ')})
-
-  const gmailUsers = []
-
-  const usersgmail = users.slice()
-  for (const user of usersgmail) {
-    if (user.email.endsWith('@gmail.com')) {
-      gmailUsers.push({ id: ${user.id}, name: ${user.name} })
-    }
-  }
+  // 4. Gmail пользователи
+  const gmailUsers = users
+    .filter(user => user.email?.endsWith('@gmail.com'))
+    .map(user => ({ id: user.id, name: user.name }));
+  console.log('Gmail пользователи:', gmailUsers);
   
-  console.log(Gmail пользователи: ${gmailUsers.join(', ')})
+  // Для красивого вывода в консоль:
+  console.log(`Gmail пользователи: ${gmailUsers.map(u => `${u.name} (${u.id})`).join(', ')}`);
 
-         const friendsFromBerlin = []
-
+  // 5. Уникальные имена друзей из Берлина
+  const friendsFromBerlin = [];
+  
   for (const user of users) {
     if (user.city === 'Berlin' && user.friends) {
       for (const friend of user.friends) {
-        const friendName = friend.name || friend
-        if (friendName) {
-          friendsFromBerlin.push(friendName)
+        const friendName = friend.name || friend;
+        if (friendName && typeof friendName === 'string') {
+          friendsFromBerlin.push(friendName);
         }
       }
     }
   }
 
-  const uniqueSorted = [...new Set(friendsFromBerlin)].sort()
-  
-  console.log(Уникальные имена друзей из Берлина: ${uniqueSorted.join(', ')})
-
-}
+  const uniqueSorted = [...new Set(friendsFromBerlin)].sort();
+  console.log(`Уникальные имена друзей из Берлина: ${uniqueSorted.join(', ')}`);
+};
