@@ -35,4 +35,4 @@ export default (content) => {
 
   const uniqueSorted = [...new Set(friendsFromBerlin)].sort();
   console.log(`Уникальные имена друзей из Берлина: ${uniqueSorted.join(', ')}`);
-};
+} 
