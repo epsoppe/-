@@ -1,0 +1,190 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John",
+            "age": 30,
+            "email": "john@gmail.com",
+            "city": "Paris",
+            "likes": 50,
+            "friends": [
+                "Alice",
+                "David",
+                "Michael",
+                "Sophia",
+                "Daniel",
+                "John",
+                "Olivia",
+                "Bob",
+                "Alice",
+                "Michael",
+                "Frank",
+                "Daniel"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Sophia",
+            "age": 28,
+            "email": "sophia@outlook.com",
+            "city": "London",
+            "likes": 35,
+            "friends": [
+                "Ivy",
+                "Alice",
+                "Olivia",
+                "Emma",
+                "Daniel",
+                "Michael",
+                "Jack",
+                "Kate",
+                "Alice",
+                "Bob",
+                "Bob"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Michael",
+            "age": 35,
+            "email": "michael@protonmail.com",
+            "city": "New-York",
+            "likes": 20,
+            "friends": [
+                "Jacob",
+                "Bob",
+                "Kate",
+                "Frank",
+                "Emily",
+                "Olivia",
+                "Emma",
+                "John"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Alice",
+            "age": 42,
+            "email": "alice@gmail.com",
+            "city": "Stockholm",
+            "likes": 60,
+            "friends": [
+                "Daniel",
+                "Bob",
+                "Eve"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Olivia",
+            "age": 55,
+            "email": "olivia@hotmail.com",
+            "city": "Berlin",
+            "likes": 90,
+            "friends": [
+                "Michael",
+                "David",
+                "Henry",
+                "Jack",
+                "Samuel",
+                "Emma",
+                "David",
+                "Kate"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "David",
+            "age": 33,
+            "email": "david@hotmail.com",
+            "city": "Berlin",
+            "likes": 10,
+            "friends": [
+                "Alice",
+                "Ivy",
+                "Henry",
+                "David",
+                "Emily",
+                "Alice",
+                "Emma",
+                "John",
+                "Daniel",
+                "Alice",
+                "John"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Kate",
+            "age": 26,
+            "email": "kate@yahoo.com",
+            "city": "Stockholm",
+            "likes": 70,
+            "friends": [
+                "Jacob",
+                "Jacob",
+                "Daniel",
+                "Bob",
+                "Eve"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Emily",
+            "age": 24,
+            "email": "emily@yahoo.com",
+            "city": "Moscow",
+            "likes": 85,
+            "friends": [
+                "Henry",
+                "Emma",
+                "Kate",
+                "Jack",
+                "Kate",
+                "Emily",
+                "Charlie",
+                "Kate",
+                "David",
+                "Kate"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Emma",
+            "age": 50,
+            "email": "emma@protonmail.com",
+            "city": "London",
+            "likes": 100,
+            "friends": [
+                "Olivia",
+                "Eve",
+                "Emily",
+                "Eve",
+                "Sophia",
+                "Bob",
+                "Grace",
+                "Emily"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Daniel",
+            "age": 32,
+            "email": "daniel@outlook.com",
+            "city": "London",
+            "likes": 30,
+            "friends": [
+                "Samuel",
+                "Samuel",
+                "Grace",
+                "Eve",
+                "Emma",
+                "Jacob",
+                "Jacob",
+                "Ivy",
+                "Kate",
+                "Grace"
+            ]
+        }
+    ]
+}

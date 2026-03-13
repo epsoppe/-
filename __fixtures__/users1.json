@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Charlie",
+      "age": 23,
+      "email": "w4u25dw9@outlook.com",
+      "city": "Berlin",
+      "likes": 43,
+      "friends": [
+        "John",
+        "David",
+        "Michael",
+        "Alice",
+        "Daniel",
+        "Charlie",
+        "Sophia",
+        "Bob",
+        "John",
+        "Michael",
+        "Frank",
+        "Daniel"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Grace",
+      "age": 25,
+      "email": "6xnczaje@hotmail.com",
+      "city": "Moscow",
+      "likes": 29,
+      "friends": [
+        "Sophia",
+        "Ivy",
+        "Alice",
+        "Olivia",
+        "Emma",
+        "Daniel",
+        "Michael",
+        "Jack",
+        "Kate",
+        "Alice",
+        "Bob",
+        "Bob"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Eve",
+      "age": 30,
+      "email": "jgkgx34q@gmail.com",
+      "city": "New-York",
+      "likes": 25,
+      "friends": [
+        "Jacob",
+        "Bob",
+        "Kate",
+        "Frank",
+        "Emily",
+        "Olivia",
+        "Emma",
+        "John"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Grace",
+      "age": 37,
+      "email": "59e429hr@gmail.com",
+      "city": "Stockholm",
+      "likes": 40,
+      "friends": [
+        "Daniel",
+        "Bob",
+        "Eve"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Jack",
+      "age": 60,
+      "email": "fb0ltbmu@yahoo.com",
+      "city": "Berlin",
+      "likes": 72,
+      "friends": [
+        "Michael",
+        "Michael",
+        "David",
+        "Henry",
+        "Jack",
+        "Samuel",
+        "Emma",
+        "David",
+        "Kate"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "David",
+      "age": 22,
+      "email": "5ipv3a50@yahoo.com",
+      "city": "Berlin",
+      "likes": 4,
+      "friends": [
+        "Alice",
+        "Ivy",
+        "Henry",
+        "David",
+        "Emily",
+        "Alice",
+        "Emma",
+        "John",
+        "Daniel",
+        "Alice",
+        "John"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Charlie",
+      "age": 24,
+      "email": "ueeihqg1@yahoo.com",
+      "city": "Stockholm",
+      "likes": 80,
+      "friends": [
+        "Jacob",
+        "Jacob",
+        "Kate",
+        "Daniel",
+        "Kate",
+        "Bob",
+        "Eve"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Emily",
+      "age": 20,
+      "email": "zbm3zkxm@gmail.com",
+      "city": "Moscow",
+      "likes": 75,
+      "friends": [
+        "Henry",
+        "Emma",
+        "Kate",
+        "Jack",
+        "Kate",
+        "Emily",
+        "Charlie",
+        "Kate",
+        "David",
+        "Kate"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Emma",
+      "age": 47,
+      "email": "c12lni47@hotmail.com",
+      "city": "London",
+      "likes": 96,
+      "friends": [
+        "Olivia",
+        "Eve",
+        "Emily",
+        "Eve",
+        "Sophia",
+        "Bob",
+        "Grace",
+        "Emily"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Daniel",
+      "age": 27,
+      "email": "easp78ea@outlook.com",
+      "city": "London",
+      "likes": 28,
+      "friends": [
+        "Samuel",
+        "Samuel",
+        "Grace",
+        "Eve",
+        "Emma",
+        "Jacob",
+        "Jacob",
+        "Ivy",
+        "Kate",
+        "Grace"
+      ]
+    }
+  ]
+}
